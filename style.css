@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Roboto&display=swap');
+
+
+
+ html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    background-color: #E6EFF6;
+  }
+  
+.container {
+    display: grid; 
+    gap: 3%;
+    min-height: 30vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+}
+
+.container > div {
+    background-color: #ffffffed;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+
+  body {
+    margin: 0;
+    max-width: 90%;
+    font-family: 'Roboto', sans-serif;
+    max-height: 80vw;
+    margin: 0 auto;
+    padding: 10% 0 10% 0;
+  }
+  
+
+  main {
+    display: block;
+    max-width: 90%;
+    height: 50vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+
+  
+
+  
+  a {
+    background-color: transparent;
+  }
+  
+    
+ 
+  
+ img {
+    border-style: none;
+    max-width: 60%;
+    min-width: 30%;
+  }
+  
+
+section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+figure {
+    max-width: 50%;
+    min-width: 20%;
+    border-radius: 50%;
+    height: auto;
+    display: grid;
+    margin: auto;
+    margin-top: 10%;
+    place-items: center;
+
+}
+
+
+.desc {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    opacity: 50%;
+    margin-bottom: 5%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    border-top: 0.5px solid gray;
+}
+
